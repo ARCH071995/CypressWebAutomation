@@ -1,0 +1,7 @@
+{
+    "username": "qa.tagesspiegel+task@gmail.com",
+    "password": "tages123!",
+    "baseURL": "https://www.tagesspiegel.de/",
+    "expectedTitle": "Aktuelle News: Nachrichten aus Berlin und der Welt",
+    "expectMyAccount" : "Mein Konto"
+}
