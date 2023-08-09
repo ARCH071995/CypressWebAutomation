@@ -23,6 +23,15 @@ d) To execute only one spec file - npx cypress run --spec "add path here" "menti
 e) By default the execution is done on Electron browser by Cypress but to change the execution we can use below command :-  npx cypress run --browser chrome --headed  
 (you can add browser as chrome or edge or firefox)
 
+# Automated test case which covers simple login scenario to tagesspiegel.de website.
+
+Steps:
+
+1. Open Tagesspiegel.de
+2. Click ‚Anmelden‘.
+3. Insert login credentials.
+4. Send login form.
+5. Verify user logged in.
 
 - Run The Test using below command in headed mode
 
