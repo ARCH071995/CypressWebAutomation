@@ -17,6 +17,7 @@ class HomePage
     iExpectHomeTitle(expectedTitle)
     {
         cy.title().should('include',expectedTitle)
+        cy.clearAllCookies();
     }
 
 }
